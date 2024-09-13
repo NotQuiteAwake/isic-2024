@@ -1,0 +1,43 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+black = "*"
+torch = "*"
+torchvision = "*"
+pillow = "*"
+matplotlib = "*"
+scikit-learn = "*"
+tensorboard = "*"
+tqdm = "*"
+datasets = "*"
+transformers = "*"
+evaluate = "*"
+accelerate = "*"
+wandb = "*"
+tensorflow = "*"
+isic-cli = "*"
+papermill = "*"
+memory-profiler = "*"
+tf-keras = "*"
+scipy = "*"
+lightgbm = "*"
+catboost = "*"
+xgboost = "*"
+category-encoders = "*"
+joblib = "*"
+
+[dev-packages]
+jupyter = "*"
+ipykernel = "*"
+ipython = "*"
+pylint = "*"
+mypy = "*"
+pyright = "*"
+
+[requires]
+python_version = "3.10"
